@@ -15,10 +15,12 @@ export default function Post({ postData }) {
       </Head>
       <article>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
+        <h2 className={utilStyles.headingLg}>{postData.subtitle}</h2>
         <div className={utilStyles.lightText}>
           <Date dateString={postData.date} />
         </div>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+        <div>{postData.copyright}</div>
       </article>
     </Layout>
   )
