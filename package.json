@@ -1,15 +1,49 @@
 {
-  "name": "learn-starter",
-  "version": "0.1.0",
+  "name": "kreig-me-next",
+  "description": "Blog and website for kreig.me.",
+  "version": "0.2.0",
+  "license": "MIT",
   "private": true,
+  "author": "Kreig Zimmerman (https://github.com/kreig303)",
+  "contributors": [
+    "Kreig Zimmerman (https://github.com/kreig303)"
+  ],
+  "maintainers": [
+    "Kreig Zimmerman (https://github.com/kreig303)"
+  ],
   "scripts": {
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "postversion": "git push --all && git push --tags",
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test": "echo \"Tests in jest would be best.\" && exit 1"
   },
   "dependencies": {
-    "next": "9.3.5",
-    "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "date-fns": "^2.13.0",
+    "gray-matter": "^4.0.2",
+    "next": "^9.3.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "remark": "^12.0.0",
+    "remark-html": "^11.0.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "husky": "^4.2.5",
+    "prettier": "^2.0.5"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kreig303/kreig-me-next"
+  },
+  "bugs": {
+    "url": "https://github.com/kreig303/kreig-me-next/issues"
   }
 }
