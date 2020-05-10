@@ -1,8 +1,8 @@
 # [kreig.me](http://kreig.me)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e8b63f3f-b666-4a0c-ba59-d93101649cb2/deploy-status)](https://app.netlify.com/sites/kreig-me/deploys)&nbsp;
-[![dependencies Status](https://david-dm.org/kreig303/kreig-me/status.svg)](https://david-dm.org/kreig303/kreig-me)
-&nbsp;[![devDependencies Status](https://david-dm.org/kreig303/kreig-me/dev-status.svg)](https://david-dm.org/kreig303/kreig-me?type=dev)
+[![dependencies Status](https://david-dm.org/kreig303/kreig-me/status.svg)](https://david-dm.org/kreig303/kreig-me-next)
+&nbsp;[![devDependencies Status](https://david-dm.org/kreig303/kreig-me/dev-status.svg)](https://david-dm.org/kreig303/kreig-me-next?type=dev)
 
 ---
 
