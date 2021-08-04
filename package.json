@@ -29,13 +29,13 @@
     "remark-html": "^11.0.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.3.5",
-    "@commitlint/config-conventional": "^8.3.4",
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
     "eslint": "^7.32.0",
     "eslint-config-next": "^11.0.1",
     "eslint-config-prettier": "^8.3.0",
-    "husky": "^4.2.5",
-    "prettier": "^2.0.5"
+    "husky": "^7.0.1",
+    "prettier": "^2.3.2"
   },
   "husky": {
     "hooks": {
