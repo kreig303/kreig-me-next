@@ -8,13 +8,11 @@
 
 ## Introduction
 
-This is the Github repo for [kreig.me](http://kreig.me), and is intended to be a showcase of the skills I possess.
+This is the Github repo for the [next](https://nextjs.org/) [sic] version of [kreig.me](http://kreig.me), which is currently a primitive gatsby site.
 
-Inspired by the fact I have been _hella lazy_ about putting up a front-end project of my own so this one kills two birds with one stone, to whit:
+This will be:
 
-1. FE Project in React
-2. Blog for my writings
+1. A front-end project in React
+2. and a Blog for my writings
 
-No matter which path my career takes from this point... I am covering my bases. :grin:
-
-(c) 2020 Kreig Zimmerman. All Rights Reserved.
+(c) 2021 Kreig Zimmerman. All Rights Reserved.
